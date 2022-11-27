@@ -1,4 +1,4 @@
-// bbb
+//ggggggggooo
 threads.start(function () {
     while (true) {
         var BAC;
