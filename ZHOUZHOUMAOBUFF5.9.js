@@ -1,5 +1,19 @@
 //ggggg
-
+threads.start(function () {
+    while (true) {
+        var BAC;
+        if (BAC = text("立即开始").findOne(2000)) {
+            sleep(800);
+            BAC.click();
+            sleep(3300);
+            break;
+        }
+    }
+});
+if (!requestScreenCapture()) {
+    toast("请求截图失败");
+    exit();
+}
 toastLog("zhouma")
 sleep(20000);
 // BUFF启动("新星 | 极地网格 (久经沙场)")
